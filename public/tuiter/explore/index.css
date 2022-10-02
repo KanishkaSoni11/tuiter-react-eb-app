@@ -65,7 +65,10 @@ body {
 }
 
 .wd-nav-tabs .wd-selected {
-    border-bottom: solid 4px rgb(29, 161, 242);
+    text-decoration: underline;
+    text-underline-offset: 16px;
+    color: rgb(29, 161, 242);
+    text-decoration-thickness: 3px;
 }
 
 .wd-input {
@@ -84,7 +87,7 @@ body {
     text-decoration: none;
 }
 
-.wd-gray-line{
+.wd-gray-line {
     border-color: rgb(110, 118, 125);
 }
 

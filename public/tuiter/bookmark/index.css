@@ -8,6 +8,13 @@ body {
     padding-bottom: 12px;
 
 }
+.wd-icon-span{
+    margin-top: 12px;
+}
+.wd-width-100 {
+    border-bottom: solid;
+    border-color: rgb(47, 51, 54);
+}
 
 .wd-text-bookmark {
     color: white;
@@ -25,6 +32,7 @@ body {
 .wd-gray-hr {
     border-color: rgb(110, 118, 125);
 }
+
 
 .wd-round-img {
     margin-left: 16px;
@@ -57,10 +65,11 @@ body {
 .wd-img {
     width: 504px;
     height: 264px;
-    border-radius: 12px;
+    border-radius: 12px 12px 0 0;
 }
 
 .wd-border {
+    width: 504px;
     margin-top: 12px;
     border-radius: 12px;
     border: 1px solid rgb(110, 118, 125);
@@ -94,7 +103,7 @@ body {
     width: 12px;
 }
 
-.wd-heart{
+.wd-heart {
     color: red;
 }
 
