@@ -1,0 +1,103 @@
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    margin: 12px;
+    padding-bottom: 12px;
+
+}
+
+.wd-text-bookmark {
+    color: white;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.wd-gray-text {
+    color: rgb(110, 118, 125);
+    font-size: 12px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.wd-gray-hr {
+    border-color: rgb(110, 118, 125);
+}
+
+.wd-round-img {
+    margin-left: 16px;
+    margin-top: 12px;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    float: left;
+}
+
+.wd-author {
+    margin-left: 12px;
+    margin-top: 12px;
+    font-size: 15px;
+    float: left;
+}
+
+.wd-content {
+    font-size: 15px;
+    width: 506px;
+    /*margin-left: 12px;*/
+    margin-right: 16px;
+
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-img {
+    width: 504px;
+    height: 264px;
+    border-radius: 12px;
+}
+
+.wd-border {
+    margin-top: 12px;
+    border-radius: 12px;
+    border: 1px solid rgb(110, 118, 125);
+    padding: 0;
+}
+
+.wd-text {
+    width: 450px;
+    margin-top: 12px;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.wd-title {
+    margin: 0;
+    width: 450px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.wd-icons {
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+    margin-right: 12px;
+    height: 12px;
+    width: 12px;
+}
+
+.wd-heart{
+    color: red;
+}
+
+.wd-icon-text {
+    padding-right: 100px;
+}
