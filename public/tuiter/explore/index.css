@@ -72,8 +72,8 @@ body {
 }
 
 .wd-input {
-    width: 80%;
-    height: 25px;
+    width: 98%;
+    height: 30px;
     background-color: rgb(47, 51, 54);
     border-radius: 12px;
     border: 0;
@@ -89,5 +89,13 @@ body {
 
 .wd-gray-line {
     border-color: rgb(110, 118, 125);
+}
+.wd-color-blue {
+    color: rgb(29, 161, 242);
+}
+
+.wd-small-img {
+    height: 15px;
+    width: 15px;
 }
 

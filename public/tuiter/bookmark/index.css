@@ -110,3 +110,12 @@ body {
 .wd-icon-text {
     padding-right: 100px;
 }
+
+.wd-float-right {
+    float: right;
+    margin-right: 12px;
+}
+
+.wd-color-blue {
+    color: rgb(29, 161, 242);
+}
