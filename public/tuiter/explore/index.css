@@ -16,6 +16,9 @@ body {
     color: white;
     margin-left: 16px;
     margin-right: 12px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    padding: 12px;
 }
 
 .wd-float-done {
