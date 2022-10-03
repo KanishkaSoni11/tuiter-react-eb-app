@@ -24,13 +24,22 @@ body {
 
 .wd-gray-text {
     color: rgb(110, 118, 125);
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 16px;
-    margin-top: 16px;
+    margin-top: 12px;
+}
+
+.wd-gray-text1 {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+
 }
 
 .wd-gray-hr {
-    border-color: rgb(110, 118, 125);
+    border-color:rgb(110, 118, 125);
+    height: 1px;
 }
 
 
