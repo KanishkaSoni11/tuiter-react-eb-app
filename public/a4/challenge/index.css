@@ -1,0 +1,58 @@
+.wd-active-tag {
+    font-weight: bold;
+}
+
+.wd-border-col-main {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+
+
+}
+
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
+}
+
+.wd-highlighted {
+
+    text-decoration: underline #0275d8;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+}
+
+.wd-padding-tabs {
+    padding-right: 32px;
+}
+
+
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-text-color-gray {
+    color: white;
+
+}
+
+.wd-bg-dark_gray {
+    background-color: darkgray;
+}
+
+.wd-text-gray {
+    color: gray;
+}
+
+.wd-background-gray {
+    background-color: white;
+}
+
+.wd-border-gray {
+    border-color: white;
+}
+
+.wd-text-color-black {
+    color: black;
+    font-weight: bold;
+}
