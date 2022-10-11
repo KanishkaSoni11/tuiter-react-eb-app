@@ -15,6 +15,10 @@
     left: 10px;
 }
 
+.rounded-pill-1 {
+    border-radius: 25px;
+}
+
 .wd-highlighted {
 
     text-decoration: underline #0275d8;
@@ -29,6 +33,10 @@
 
 .wd-bg-color-black {
     background-color: black;
+}
+
+.wd-bg-color-gray {
+    background-color: rgb(47, 51, 54);;
 }
 
 .wd-text-color-gray {
