@@ -6,9 +6,7 @@ const whoToFollowBar =() => {
                          Who to Follow
                 </div>  
                 ${WhoToFollowList()}           
-                <div>
-                
-</div>
+               
                     
       </div>
  `)

@@ -4,4 +4,7 @@
 .list-group-item.list-group-item-action.wd-border {
     border-radius: 0;
 }
-
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
+}

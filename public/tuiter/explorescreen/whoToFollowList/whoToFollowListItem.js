@@ -1,6 +1,5 @@
 const whoToFollowListItem = (who) => {
     return (`
-         <div class="list-group">
                 <div class="list-group-item list-group-item-action wd-border">
                     <div class="row">
                         <div class="col-2">
@@ -23,7 +22,7 @@ const whoToFollowListItem = (who) => {
                     </div>
 
                 </div>
-         </div>
+      
     `);
 
 }
