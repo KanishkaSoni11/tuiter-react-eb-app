@@ -1,0 +1,7 @@
+.list-group.wd-bottom-border {
+    border-radius: 12px;
+}
+.list-group-item.list-group-item-action.wd-border {
+    border-radius: 0;
+}
+

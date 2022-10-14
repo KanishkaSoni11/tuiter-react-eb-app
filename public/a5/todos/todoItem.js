@@ -1,5 +1,5 @@
 const TodoItem = (todo) => {
-    return(`
+    return (`
     <li>
       <input type="checkbox"
         ${todo.done ? 'checked' : ''}/>
