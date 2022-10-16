@@ -12,8 +12,8 @@ const NavigationSidebar = (active) => {
                         <i class="fas fa-home"></i> Home
                     </a>
                     <a href="../explorescreen/index.html"
-                       class="list-group-item list-group-item-action">
-                        <i class="fas fa-hashtag ${active === 'explore' ? 'active' : ''}"">
+                       class="list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}"">
+                        <i class="fas fa-hashtag ">
                         </i> Explore
                     </a>
                     <a href="../notification.html"
@@ -48,15 +48,15 @@ const NavigationSidebar = (active) => {
             <div class="d-none d-xl-block d-xxl-none">
                 <div class="list-group">
                     <a href="../home.html"
-                       class="list-group-item list-group-item-action">
+                       class="list-group-item list-group-item-action ">
                         <i class="fab fa-twitter"></i>
                     </a>
                     <a href="../homescreen/index.html"
-                       class="list-group-item list-group-item-action">
+                       class="list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}"">
                         <i class="fas fa-home"></i> Home
                     </a>
                     <a href="../explore/index.html"
-                       class="list-group-item list-group-item-action active">
+                       class="list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}"">
                         <i class="fas fa-hashtag">
                         </i> Explore
                     </a>
@@ -92,15 +92,15 @@ const NavigationSidebar = (active) => {
             <div class="d-none d-lg-block d-xl-none">
                 <div class="list-group">
                     <a href="../homescreen/index.html"
-                       class="list-group-item list-group-item-action">
+                       class="list-group-item list-group-item-action ">
                         <i class="fab fa-twitter"></i>
                     </a>
                     <a href="../home.html"
-                       class="list-group-item list-group-item-action">
+                       class="list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}"" >
                         <i class="fas fa-home"></i>
                     </a>
                     <a href="../explore/index.html"
-                       class="list-group-item list-group-item-action active">
+                       class="list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}"">
                         <i class="fas fa-hashtag">
                         </i>
                     </a>
@@ -136,15 +136,15 @@ const NavigationSidebar = (active) => {
             <div class="d-none d-md-block d-lg-none">
                 <div class="list-group">
                     <a href="../homescreen/index.html"
-                       class="list-group-item list-group-item-action">
+                       class="list-group-item list-group-item-action ">
                         <i class="fab fa-twitter"></i>
                     </a>
                     <a href="../home.html"
-                       class="list-group-item list-group-item-action">
+                       class="list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}"">
                         <i class="fas fa-home"></i>
                     </a>
                     <a href="../explore/index.html"
-                       class="list-group-item list-group-item-action active">
+                       class="list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}"">
                         <i class="fas fa-hashtag">
                         </i>
                     </a>
@@ -184,11 +184,11 @@ const NavigationSidebar = (active) => {
                         <i class="fab fa-twitter"></i>
                     </a>
                     <a href="../home.html"
-                       class="list-group-item list-group-item-action">
+                       class="list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}"">
                         <i class="fas fa-home"></i>
                     </a>
                     <a href="../explore/index.html"
-                       class="list-group-item list-group-item-action active">
+                       class="list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}"">
                         <i class="fas fa-hashtag">
                         </i>
                     </a>
@@ -224,7 +224,7 @@ const NavigationSidebar = (active) => {
             <div class="d-block d-sm-none">
                 <div class="list-group">
                     <a href="../home.html"
-                       class="list-group-item list-group-item-action">
+                       class="list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}"">
                         <i class="fab fa-twitter"></i>
                     </a>
                     <a href="../homescreen/index.html"
@@ -232,7 +232,7 @@ const NavigationSidebar = (active) => {
                         <i class="fas fa-home"></i>
                     </a>
                     <a href="../explore/index.html"
-                       class="list-group-item list-group-item-action active">
+                       class="list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}"">
                         <i class="fas fa-hashtag">
                         </i>
                     </a>
