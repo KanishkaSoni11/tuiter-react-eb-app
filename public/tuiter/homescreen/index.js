@@ -1,5 +1,5 @@
 /* eslint-env jquery */
-import NavigationSidebar from "./navigationSidebar/index.js";
+import NavigationSidebar from "../navigationSidebar/index.js";
 import postSummaryListIndex from "./postSummaryList/index.js";
 import postSummaryListIndexSide from "./postSummaryListSide/index.js";
 
@@ -10,7 +10,7 @@ function main() {
    <div class="row mt-2">
    <div class="col-2 col-md-2 col-lg-1 col-xl-2 ">
  
- ${NavigationSidebar()}
+ ${NavigationSidebar('home')}
    </div>
    <div class="col-10 col-lg-7 col-xl-6 ">
   ${postSummaryListIndex()}

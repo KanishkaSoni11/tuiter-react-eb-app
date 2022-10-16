@@ -1,5 +1,5 @@
 /* eslint-env jquery */
-import NavigationSidebar from "./navigationSidebar/index.js";
+import NavigationSidebar from "../navigationSidebar/index.js";
 import whoToFollowBar from "./whoToFollowList/index.js";
 import exploreComponent from "./exploreComponent.js";
 
@@ -10,7 +10,7 @@ function main() {
   <div class="row mt-2">
    <div class="col-2 col-md-2 col-lg-1 col-xl-2 ">
 <!--     <h3>NavigationSidebar</h3>-->
-      ${NavigationSidebar()}
+      ${NavigationSidebar('explore')}
 
 
    </div>
