@@ -38,8 +38,8 @@ const NavigationSidebar = () => {
                     </a>
                     <a href="../#.html"
                        class="list-group-item list-group-item-action p-1 ms-0">
-                    <span class="fa-stack m-0 p-0"><i class="fas fa-circle fa-stack-1x wd-fg-color-white p-0 m-0"></i>
-                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse wd-fg-color-black p-0 m-0"></i>
+                    <span class="fa-stack m-0 p-0"><i class="far fa-circle fa-stack-1x wd-text-color-gray  m-0 "></i>
+                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse  wd-text-color-gray  m-0 "></i>
                             </span><span class="p-0 m-0">More </span>
                     </a>
                 </div>
@@ -82,8 +82,8 @@ const NavigationSidebar = () => {
                     </a>
                     <a href="../bookmark/index.html"
                        class="list-group-item list-group-item-action p-1 ms-0">
-                    <span class="fa-stack m-0 p-0"><i class="fas fa-circle fa-stack-1x wd-fg-color-white p-0 m-0"></i>
-                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse wd-fg-color-black p-0 m-0"></i>
+                   <span class="fa-stack m-0 p-0"><i class="far fa-circle fa-stack-1x wd-text-color-gray  m-0 "></i>
+                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse  wd-text-color-gray  m-0 "></i>
                             </span><span class="p-0 m-0">More </span>
                     </a>
                 </div>
@@ -126,8 +126,8 @@ const NavigationSidebar = () => {
                     </a>
                     <a href="../bookmark/index.html"
                        class="list-group-item list-group-item-action p-1 ms-0">
-                    <span class="fa-stack m-0 p-0"><i class="fas fa-circle fa-stack-1x wd-fg-color-white p-0 m-0"></i>
-                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse wd-fg-color-black p-0 m-0"></i>
+                   <span class="fa-stack m-0 p-0"><i class="far fa-circle fa-stack-1x wd-text-color-gray  m-0 "></i>
+                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse  wd-text-color-gray  m-0 "></i>
                             </span><span class="p-0 m-0"> </span>
                     </a>
                 </div>
@@ -170,8 +170,8 @@ const NavigationSidebar = () => {
                     </a>
                     <a href="../bookmark/index.html"
                        class="list-group-item list-group-item-action p-1 ms-0">
-                    <span class="fa-stack m-0 p-0"><i class="fas fa-circle fa-stack-1x wd-fg-color-white p-0 m-0"></i>
-                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse wd-fg-color-black p-0 m-0"></i>
+                  <span class="fa-stack m-0 p-0"><i class="far fa-circle fa-stack-1x wd-text-color-gray  m-0 "></i>
+                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse  wd-text-color-gray  m-0 "></i>
                             </span><span class="p-0 m-0"> </span>
                     </a>
                 </div>
@@ -214,8 +214,8 @@ const NavigationSidebar = () => {
                     </a>
                     <a href="../bookmark/index.html"
                        class="list-group-item list-group-item-action p-1 ms-0">
-                    <span class="fa-stack m-0 p-0"><i class="fas fa-circle fa-stack-1x wd-fg-color-white p-0 m-0"></i>
-                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse wd-fg-color-black p-0 m-0"></i>
+                    <span class="fa-stack m-0 p-0"><i class="far fa-circle fa-stack-1x wd-text-color-gray  m-0 "></i>
+                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse  wd-text-color-gray  m-0 "></i>
                             </span><span class="p-0 m-0"> </span>
                     </a>
                 </div>
@@ -258,8 +258,8 @@ const NavigationSidebar = () => {
                     </a>
                     <a href="../bookmark/index.html"
                        class="list-group-item list-group-item-action p-1 ms-0">
-                    <span class="fa-stack m-0 p-0"><i class="fas fa-circle fa-stack-1x wd-fg-color-white p-0 m-0"></i>
-                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse wd-fg-color-black p-0 m-0"></i>
+                    <span class="fa-stack m-0 p-0"><i class="far fa-circle fa-stack-1x wd-text-color-gray  m-0 "></i>
+                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse  wd-text-color-gray  m-0 "></i>
                             </span><span class="p-0 m-0"> </span>
                     </a>
                 </div>
