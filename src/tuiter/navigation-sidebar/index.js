@@ -13,7 +13,7 @@ const NavigationSidebar = () => {
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
                 Home
             </Link>
-            <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore' ? 'active' : ''}`}>
+            <Link to="/tuiter/explorecomponent" className={`list-group-item ${active === 'explore' ? 'active' : ''}`}>
                 Explore
             </Link>
             <Link to="/" className="list-group-item">
