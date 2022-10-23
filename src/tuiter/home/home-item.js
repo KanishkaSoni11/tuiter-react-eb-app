@@ -6,9 +6,8 @@ const HomeItem = (
     }
 ) => {
     return (
-
         <li className="list-group-item">
-            <div className=" list-group-item-action ">
+            <div className="list-group-item-action ">
                 <div className=" row ">
                     <div className="col-2 ">
                         <img src={`${post.profileImage}`} className="rounded-circle img-fluid "/>
