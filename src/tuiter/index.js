@@ -10,10 +10,12 @@ import tuitsReducer from "./tuits/tuits-reducer";
 import {configureStore} from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 import TuitList from "./tuits";
+import ProfileItem from "./profile/profile-item";
+import profileReducer from "./profile/profile-reducer";
 
 
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer}});
+    {reducer: {who: whoReducer, tuits: tuitsReducer, profile : profileReducer}});
 
 
 function Tuiter() {
@@ -27,7 +29,8 @@ function Tuiter() {
                      style={{"position": "relative"}}>
                     <Routes>
                         <Route path="/explorecomponent" element={<ExploreComponent/>}/>
-                        <Route path="/home" element={<TuitList/>}/>
+                        <Route path="/" element={<TuitList/>}/>
+                        <Route path="/profile" element={<ProfileItem/>}/>
                     </Routes>
                 </div>
 
