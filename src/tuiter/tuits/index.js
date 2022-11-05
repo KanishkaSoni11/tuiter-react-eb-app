@@ -1,22 +1,14 @@
 import React from "react";
-import {useSelector} from "react-redux";
-import TuitItem from "./tuit-item";
+import TuitsList from "../tuits/tuit-list";
+import WhatsHappening from "./whats-happening";
 
-const TuitList = () => {
-    const postsArray = useSelector(state => state.tuits)
+const HomeComponent = () => {
     return(
-        <ul className="list-group mt-2">
-
-            {
-                postsArray.map(postItem =>
-                    <TuitItem
-                        key={postItem._id}
-                        post={postItem}/>
-                )
-            }
-        </ul>
+        <>
+            <h4>Home</h4>
+            <WhatsHappening/>
+            <TuitsList/>
+        </>
     );
 };
-
-export default TuitList;
-
+export default HomeComponent;
