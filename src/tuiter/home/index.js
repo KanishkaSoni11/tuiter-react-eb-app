@@ -6,8 +6,6 @@ const HomePostList = () => {
     return (
 <div className="mt-2 list-group">
 
-
-
     {
 
         home.map(post =>
