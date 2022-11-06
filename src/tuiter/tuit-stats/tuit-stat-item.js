@@ -11,12 +11,8 @@ const TuitStatsItem = (
     }
 ) => {
     return (
-        <span>
-        <i className="far fa-comment pe-3"></i> {tuitstat.likes}
-            <i className="fas fa-retweet ps-5 pe-3"></i> {tuitstat.replies}
-            <i className="far fa-heart ps-5 pe-3"></i> {tuitstat.retuits}
-            <i className="fas fa-upload ps-5 "></i>
-    </span>
+        <>
+        </>
     );
 };
 

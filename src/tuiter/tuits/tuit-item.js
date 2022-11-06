@@ -36,8 +36,35 @@ const TuitItem = (
                     <div className="fw-bolder">{post.topic}</div>
                     <div>{post.tuit}</div>
 
+                    <div className="mt-2">
+                          <span>
+                         <i className="far fa-comment pe-3"></i> {post.replies}
+                              <i className="fas fa-retweet ps-5 pe-3"></i> {post.retuits}
+                              {
+                                  !post.liked &&
+                                  <>
+                                      <i className="far fa-heart ps-5 pe-3"></i> {post.likes}
+                                  </>
+
+
+                              }
+                              {
+                                  post.liked &&
+                                  <>
+                                      <i className="fa-solid fa-heart ps-5 pe-3 text-danger"></i>{post.likes}
+                                  </>
+
+
+                              }
+
+
+                              <i className=" fa-solid fa-share-nodes ps-5 "></i>
+                     </span>
+                    </div>
+
 
                 </div>
+
 
             </div>
         </li>
