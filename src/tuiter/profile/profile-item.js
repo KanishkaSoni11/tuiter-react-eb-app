@@ -57,9 +57,9 @@ const ProfileItem = () => {
 
 
             <div className="position-relative ">
-                <img src={profile.bannerPicture} className="w-100 "/><br/>
+                <img src={`/images/${profile.bannerPicture}`} className="w-100 "/><br/>
                 <div className="col-3 position-absolute top-50 ms-2">
-                    <img className="rounded-circle img-fluid img-thumbnail" src={profile.profilePicture}
+                    <img className="rounded-circle img-fluid img-thumbnail" src={`/images/${profile.profilePicture}`}
                     />
                 </div>
                 <div className="mt-2">
