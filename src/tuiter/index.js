@@ -35,7 +35,7 @@ function Tuiter() {
                      style={{"position": "relative"}}>
                     <Routes>
                         <Route path="/explorecomponent" element={<ExploreComponent/>}/>
-                        <Route path="/" element={<TuitList/>}/>
+                        <Route index element={<TuitList/>}/>
                         <Route path="/profilecomponent" element={<ProfileItem/>}/>
                     </Routes>
                 </div>
