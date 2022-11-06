@@ -10,12 +10,15 @@ const NavigationSidebar = () => {
     return (
         <div className="list-group">
             <a className="list-group-item">Tuiter</a>
-            <Link to="/tuiter/" className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
+            <Link to = "/tuiter/" className={`list-group-item
+                    ${active === '' ? 'active' : ''}`}>
                 Home
             </Link>
-            <Link to="/tuiter/explorecomponent" className={`list-group-item ${active === 'explore' ? 'active' : ''}`}>
+            <Link to = "/tuiter/explorecomponent" className={`list-group-item
+                    ${active === 'explorecomponent' ? 'active' : ''}`}>
                 Explore
             </Link>
+
             <Link to="/" className="list-group-item">
                 Labs
             </Link>
