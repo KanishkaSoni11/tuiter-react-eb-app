@@ -21,19 +21,22 @@ const store = configureStore(
 function Tuiter() {
 
     const location = useLocation();
+
     return (
         <Provider store={store}>
 
             <div className="row pt-2">
                 <div className=" mt-2 col-2 col-md-2 col-lg-1 col-xl-2">
+
                     <NavigationSidebar active={location.pathname}/>
+
                 </div>
                 <div className="col-10 col-md-10 col-lg-7 col-xl-6"
                      style={{"position": "relative"}}>
                     <Routes>
                         <Route path="/explorecomponent" element={<ExploreComponent/>}/>
                         <Route path="/" element={<TuitList/>}/>
-                        <Route path="/profile" element={<ProfileItem/>}/>
+                        <Route path="/profilecomponent" element={<ProfileItem/>}/>
                     </Routes>
                 </div>
 
