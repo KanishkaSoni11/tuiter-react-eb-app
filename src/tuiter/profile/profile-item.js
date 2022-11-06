@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {saveProfile} from "./profile-reducer";
-
+import {cancelProfile} from "./profile-reducer";
 
 const ProfileItem = () => {
     const profile = useSelector(state => state.profile);
@@ -24,6 +24,12 @@ const ProfileItem = () => {
         dispatch(saveProfile(prof))
     }
 
+    const cancelClickHandler = () => {
+        setEditProfile(false);
+        const prof = {...profile};
+        dispatch(saveProfile(prof))
+    }
+
 
     return (
         <>
@@ -37,10 +43,13 @@ const ProfileItem = () => {
             {
                 editProfile &&
                 <div className="row">
-                    <h1 className="col-9">Edit Profile</h1>
+                    <i
+                        onClick={cancelClickHandler}
+                        className="col-1 fa-solid fa-xmark fa-2x"></i>
+                    <h1 className="col-8">Edit Profile</h1>
                     <button
                         onClick={saveClickHandler}
-                        className=" m-1 btn btn-primary col-2 float-end rounded-pill"> Save
+                        className=" my-1 me-0  btn btn-primary col-2 float-end rounded-pill"> Save
                     </button>
                 </div>
 
