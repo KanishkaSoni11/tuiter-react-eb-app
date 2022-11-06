@@ -20,7 +20,7 @@ const ProfileItem = () => {
 
     const saveClickHandler = () => {
         setEditProfile(false);
-        const prof = {...profile , firstName, lastName, bio, location, website, dob};
+        const prof = {...profile, firstName, lastName, bio, location, website, dob};
         dispatch(saveProfile(prof))
     }
 
@@ -62,11 +62,15 @@ const ProfileItem = () => {
                     <img className="rounded-circle img-fluid img-thumbnail" src={`/images/${profile.profilePicture}`}
                     />
                 </div>
-                <div className="mt-2">
-                    <button className="btn btn-primary rounded-pill float-end" onClick={editClickHandler}>
-                        Edit Profile
-                    </button>
-                </div>
+                {
+                    !editProfile &&
+                    <div className="mt-2">
+                        <button className="btn btn-primary rounded-pill float-end" onClick={editClickHandler}>
+                            Edit Profile
+                        </button>
+                    </div>
+                }
+
             </div>
             {
                 !editProfile &&
@@ -107,14 +111,14 @@ const ProfileItem = () => {
                 <div className="form-floating mt-2">
 
                     <textarea value={bio}
-                              style={{height:100}}
+                              style={{height: 100}}
                               onChange={(event) => {
                                   setBio(event.target.value)
                               }
                               }
                               className="form-control "
                               id="floatingInputGrid"
-                              rows = "7" cols = "10"
+                              rows="7" cols="10"
                     ></textarea>
                     <label htmlFor="floatingInputGrid">Bio</label>
 
@@ -143,7 +147,7 @@ const ProfileItem = () => {
                     <div className="form-floating">
                         <input
                             onChange={(event) => {
-                                console.log("loc " ,event.target.value )
+                                console.log("loc ", event.target.value)
                                 setLocation(event.target.value)
                             }
                             }
