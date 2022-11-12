@@ -18,8 +18,7 @@ export const deleteTuitThunk = createAsyncThunk(
 export const createTuitThunk = createAsyncThunk(
     'tuits/createTuit',
     async (tuit) => {
-        await service.createTuit(tuit)
-        return tuit
+        return await  service.createTuit(tuit)
     })
 
 export const updateTuitThunk =
