@@ -1,18 +1,16 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
         post
-
-
     }
 ) => {
 
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return (
@@ -37,20 +35,50 @@ const TuitItem = (
                               {
                                   !post.liked &&
                                   <>
-                                      <i className="far fa-heart ps-5 pe-3"></i> {post.likes}
+                                      <i className="fa-regular fa-thumbs-up ps-5 pe-3"
+                                         onClick={() => dispatch(updateTuitThunk({
+                                             ...post,
+                                             likes: post.likes + 1,
+                                             liked: true
+                                         }))}></i>{post.likes}
                                   </>
-
-
                               }
                               {
                                   post.liked &&
                                   <>
-                                      <i className="fa-solid fa-heart ps-5 pe-3 text-danger"></i>{post.likes}
+                                      <i className="fa-solid fa-thumbs-up ps-5 pe-3 text-danger"
+                                         onClick={() => dispatch(updateTuitThunk({
+                                             ...post,
+                                             likes: post.likes - 1,
+                                             liked: false
+                                         }))}></i>{post.likes}
                                   </>
-
 
                               }
 
+                              {
+                                  !post.disliked &&
+                                  <>
+                                      <i className="fa-regular fa-thumbs-down ps-5 pe-3"
+                                         onClick={() => dispatch(updateTuitThunk({
+                                             ...post,
+                                             dislikes: post.dislikes + 1,
+                                             disliked: true
+                                         }))}></i>{post.dislikes}
+                                  </>
+                              }
+                              {
+                                  post.disliked &&
+                                  <>
+                                      <i className="fa-solid fa-thumbs-down ps-5 pe-3 text-danger"
+                                         onClick={() => dispatch(updateTuitThunk({
+                                             ...post,
+                                             dislikes: post.dislikes - 1,
+                                             disliked: false
+                                         }))}></i>{post.dislikes}
+                                  </>
+
+                              }
 
                               <i className=" fa-solid fa-share-nodes ps-5 "></i>
                      </span>
