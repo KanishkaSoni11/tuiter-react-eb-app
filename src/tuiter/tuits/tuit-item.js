@@ -49,8 +49,8 @@ const TuitItem = (
                                       <i className="fa-solid fa-thumbs-up ps-5 pe-3 text-danger"
                                          onClick={() => dispatch(updateTuitThunk({
                                              ...post,
-                                             likes: post.likes - 1,
-                                             liked: false
+                                             likes: post.likes + 1,
+                                             liked: true
                                          }))}></i>{post.likes}
                                   </>
 
@@ -73,8 +73,8 @@ const TuitItem = (
                                       <i className="fa-solid fa-thumbs-down ps-5 pe-3 text-danger"
                                          onClick={() => dispatch(updateTuitThunk({
                                              ...post,
-                                             dislikes: post.dislikes - 1,
-                                             disliked: false
+                                             dislikes: post.dislikes + 1,
+                                             disliked: true
                                          }))}></i>{post.dislikes}
                                   </>
 
