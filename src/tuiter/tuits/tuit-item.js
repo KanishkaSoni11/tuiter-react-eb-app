@@ -35,7 +35,7 @@ const TuitItem = (
                               {
                                   !post.liked &&
                                   <>
-                                      <i className="fa-regular fa-thumbs-up ps-5 pe-3"
+                                      <i className="fa-regular fa-heart ps-5 pe-3"
                                          onClick={() => dispatch(updateTuitThunk({
                                              ...post,
                                              likes: post.likes + 1,
@@ -46,7 +46,7 @@ const TuitItem = (
                               {
                                   post.liked &&
                                   <>
-                                      <i className="fa-solid fa-thumbs-up ps-5 pe-3 text-danger"
+                                      <i className="fa-solid fa-heart ps-5 pe-3 text-danger"
                                          onClick={() => dispatch(updateTuitThunk({
                                              ...post,
                                              likes: post.likes + 1,
